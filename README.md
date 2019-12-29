@@ -8,3 +8,13 @@ that’s growing around the challenge.*
   the #66DaysOfMobileAppDev hashtag. And share my github repository for the reference work.
 
 **N.B.** (Each week, reach out to at least two people on Facebook/Twitter who are also doing the challenge)
+
+
+# Day01
+Topics include:
+
+* Installing Android Studio on Linux - [developer.android.com](https://developer.android.com/studio/install#linux) - [stackoverflow](https://stackoverflow.com/questions/28314139/how-to-install-android-studio-on-ubuntu)
+* Creating my first project
+* Creating virtual devices for testing
+* Using version control
+* Building, running, and debugging projects
