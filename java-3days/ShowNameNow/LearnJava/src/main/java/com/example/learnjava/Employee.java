@@ -1,4 +1,4 @@
-package c.bawp.learnjava;
+package com.example.learnjava;
 
 public class Employee extends Person {
     private int id;

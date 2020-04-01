@@ -1,4 +1,4 @@
-package c.bawp.learnjava;
+package com.example.learnjava;
 
 import java.util.HashMap;
 import java.util.Iterator;
