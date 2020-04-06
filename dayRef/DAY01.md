@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 #### Day 01/22
+=======
+## Day 01/22
+>>>>>>> ef625b1fbc826e8ec6ac6d606d6c462f918df890
 **#22daysofAndroidDev which is subpart of #66daysofMobileAppDev.
 I Failed this task of #66daysofMobileAppDev so I start a new journey for #66daysofMobileAppDev on the subpart of #22daysofAndroidDev**
 
@@ -9,3 +13,4 @@ And another section i was watched a tv series which name is "MONEY HEIST - Seaso
 
 	How's everything going on with you?
 	Happy Coding ❤️ #stayhome #staycode
+![It's a screenshot on day01](image/day1.png)
