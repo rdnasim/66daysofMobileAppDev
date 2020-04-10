@@ -8,9 +8,10 @@ public class MyClassExp {
         employeeExp.setFirstName("Riadul Islam");
         employeeExp.setLastName("Nasim");
         employeeExp.setAge(26);
+        employeeExp.setId(2030);
 
         System.out.println(employeeExp.getFirstName()+ " " + employeeExp.getLastName() +
-                " and his age " + employeeExp.getAge());
+                ", and his age " + employeeExp.getAge() + ", Employee ID " + employeeExp.getId());
 
 
 
