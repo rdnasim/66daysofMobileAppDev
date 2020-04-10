@@ -15,6 +15,11 @@ public class MicrophoneExp {
         this.model = model;
     }
 
+    public MicrophoneExp(String name, String color) {
+        this.name = name;
+        this.color = color;
+    }
+
     public String getName() {
         return name;
     }
