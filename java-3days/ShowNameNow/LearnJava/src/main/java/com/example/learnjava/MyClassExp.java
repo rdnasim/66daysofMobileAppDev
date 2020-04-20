@@ -3,8 +3,31 @@ package com.example.learnjava;
 public class MyClassExp {
     public static void main(String[] args) {
 
+        int[] myArray = {1, 2, 6, 8};
+        System.out.println(myArray[1]);
 
-        EmployeeExp employeeExp = new EmployeeExp();
+        String[] names = {"Riadul", "Islam", "nasim", "Riadul Islam", "Islam Nasim"};
+        for (int i = 0; i < names.length; i++){
+            System.out.println("Name: " + names[i]);
+        }
+
+        System.out.println(names[1]);
+
+
+        /*int a = 12;
+        String myString = "Hello there";
+        boolean isEmpty = myString.isEmpty();
+
+        if (!isEmpty){
+            System.out.println(myString);
+        }else {
+            System.out.println("Empty");
+        }
+
+         */
+
+
+        /* EmployeeExp employeeExp = new EmployeeExp();
         employeeExp.setFirstName("Riadul Islam");
         employeeExp.setLastName("Nasim");
         employeeExp.setAge(26);
@@ -12,13 +35,14 @@ public class MyClassExp {
 
         System.out.println(employeeExp.getFirstName()+ " " + employeeExp.getLastName() +
                 ", and his age " + employeeExp.getAge() + ", Employee ID " + employeeExp.getId());
+         */
 
 
 
-//        PersonExp nasim = new PersonExp("Riadul Islam", "Nasim", 23);
-//        System.out.println(nasim.getAge());
+        /* PersonExp nasim = new PersonExp("Riadul Islam", "Nasim", 23);
+        System.out.println(nasim.getAge());
 
-        /* MicrophoneExp microphoneExp = new MicrophoneExp("Agenda", "Black", 11772);
+        MicrophoneExp microphoneExp = new MicrophoneExp("Agenda", "Black", 11772);
         microphoneExp.name = "Agenda";
         microphoneExp.color = "Black";
         microphoneExp.model = 11772;
