@@ -1,4 +1,4 @@
-package space.rdnasim.makeitrain;
+package space.rdnasim.quizpractice;
 
 import android.content.Context;
 
@@ -22,6 +22,6 @@ public class ExampleInstrumentedTest {
         // Context of the app under test.
         Context appContext = InstrumentationRegistry.getInstrumentation().getTargetContext();
 
-        assertEquals("space.rdnasim.makeitrain", appContext.getPackageName());
+        assertEquals("space.rdnasim.quizpractice", appContext.getPackageName());
     }
 }

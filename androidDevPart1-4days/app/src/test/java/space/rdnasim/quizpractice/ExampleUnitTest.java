@@ -1,4 +1,4 @@
-package space.rdnasim.makeitrain;
+package space.rdnasim.quizpractice;
 
 import org.junit.Test;
 
