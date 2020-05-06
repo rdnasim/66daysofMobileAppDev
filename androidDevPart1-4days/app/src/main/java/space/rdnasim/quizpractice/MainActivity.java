@@ -16,6 +16,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     private Button falseButton;
     private TextView questionTextView;
     private ImageButton nextButton;
+    private ImageButton previousButton;
 
     private int currentQuestionIndex = 0;
 
@@ -42,11 +43,13 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         falseButton = findViewById(R.id.false_button);
         questionTextView = findViewById(R.id.answer_text_view);
         nextButton = findViewById(R.id.next_button);
+        previousButton = findViewById(R.id.previous_button);
 
 
         trueButton.setOnClickListener(this);
         falseButton.setOnClickListener(this);
         nextButton.setOnClickListener(this);
+        previousButton.setOnClickListener(this);
     }
 
     @Override
@@ -65,6 +68,19 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 Log.d("current", "onClick: " + currentQuestionIndex);
                 questionTextView.setText(questionBank[currentQuestionIndex].getAnswerResId());
                 questionUpdate();
+                break;
+
+            case R.id.previous_button:
+                if (currentQuestionIndex == 0){
+                    break;
+                }
+                else {
+                    currentQuestionIndex = (currentQuestionIndex - 1) % questionBank.length;
+                    Log.d("current", "onClick: " + currentQuestionIndex);
+                    questionTextView.setText(questionBank[currentQuestionIndex].getAnswerResId());
+                    questionUpdate();
+                }
+
 
         }
 
