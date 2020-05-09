@@ -22,9 +22,9 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
 
     private Question[] questionBank = new Question[]{
+            new Question(R.string.question_declaration, true),
             new Question(R.string.question_amendments, false),
             new Question(R.string.question_constitution, true),
-            new Question(R.string.question_declaration, true),
             new Question(R.string.question_independence_rights, true),
             new Question(R.string.question_religion, true),
             new Question(R.string.question_government, false),
@@ -65,8 +65,8 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
             case R.id.next_button:
                 currentQuestionIndex = (currentQuestionIndex + 1) % questionBank.length;
-                Log.d("current", "onClick: " + currentQuestionIndex);
-                questionTextView.setText(questionBank[currentQuestionIndex].getAnswerResId());
+//                Log.d("current", "onClick: " + currentQuestionIndex);
+//                questionTextView.setText(questionBank[currentQuestionIndex].getAnswerResId());
                 questionUpdate();
                 break;
 
@@ -76,8 +76,8 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 }
                 else {
                     currentQuestionIndex = (currentQuestionIndex - 1) % questionBank.length;
-                    Log.d("current", "onClick: " + currentQuestionIndex);
-                    questionTextView.setText(questionBank[currentQuestionIndex].getAnswerResId());
+//                    Log.d("current", "onClick: " + currentQuestionIndex);
+//                    questionTextView.setText(questionBank[currentQuestionIndex].getAnswerResId());
                     questionUpdate();
                 }
 
